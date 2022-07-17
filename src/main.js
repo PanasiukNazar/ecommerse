@@ -1,3 +1,6 @@
+import './style.css';
+import './cart.js';
+
 const $listShow = document.querySelector('.navigation-show');
 const $listHide = document.querySelector('.navigation-hide');
 const $navigationItems = document.querySelector('.navigation-block');

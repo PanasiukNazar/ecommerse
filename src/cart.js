@@ -113,10 +113,10 @@ function renderCart(state) {
                      ${product.name} ${formatPrice(product.price)} X ${
                   cartItem.count
                } ${formatPrice(product.price * cartItem.count)}</div>
-               <div class="window-damp">
+               <div class="window-dump">
                      <img data-product-id="${
                         cartItem.id
-                     }" class="damp" src="img/dump.png" alt="dump" />
+                     }" class="dump" src="img/dump.png" alt="dump" />
                 </div>
                 `;
             })}

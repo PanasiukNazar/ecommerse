@@ -172,7 +172,8 @@ body {
    margin-right: $margin-small;
 }
 
-.window-damp {
+.window-dump {
+   cursor: pointer;
    margin-right: $margin-medium;
 }
 
@@ -302,6 +303,7 @@ body {
 }
 
 .complete-menu {
+   cursor: pointer;
    display: flex;
    justify-content: space-around;
    align-items: center;
@@ -329,6 +331,7 @@ body {
 }
 
 .add-choice {
+   cursor: pointer;
    font-weight: $font-weight-bold;
    font-size: $font-size-small-medium;
    line-height: $line-heigh-small;
@@ -521,6 +524,7 @@ body {
    }
 
    .core-imagen {
+      cursor: pointer;
       height: $large-width;
       margin-bottom: $margin-big;
    }
