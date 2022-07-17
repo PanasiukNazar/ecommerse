@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&family=Overpass:wght@700&family=Space+Mono&display=swap"
+         rel="stylesheet"
+      />
+      <title>Ecommerse</title>
+   </head>
+   <body>
+      <main class="main">
+         <!-- Section Header -->
+         <header>
+            <div class="header-content">
+               <!-- Show on mobile -->
+               <div class="navigation">
+                  <img
+                     class="navigation-show"
+                     src="img/burger.png"
+                     alt="burger"
+                  />
+               </div>
+               <div class="header-logo">
+                  <img src="img/sneakers.png" alt="logo" />
+               </div>
+               <div class="navigation-block">
+                  <img
+                     class="navigation-hide"
+                     src="img/hide-menu.svg.svg"
+                     alt="hide"
+                  />
+                  <div class="navigation-items">
+                     <div>Collections</div>
+                     <div>Men</div>
+                     <div>Women</div>
+                     <div>About</div>
+                     <div>Contact</div>
+                  </div>
+               </div>
+               <div class="header-cart">
+                  <img class="cart" src="img/cart.png" alt="card" />
+                  <img class="account" src="img/userPhoto.png" alt="account" />
+                  <img
+                     class="account50X50"
+                     src="/src/img/account50X50.png"
+                     alt="account"
+                  />
+               </div>
+               <div id="cartContainer"></div>
+            </div>
+         </header>
+         <!-- Section Collage Show -->
+         <div class="show-collage">
+            <div class="collage-core-show">
+               <img
+                  class="collage-close"
+                  src="/src/img/white-close-menu.svg"
+                  alt="close"
+               />
+               <img
+                  class="collage-previous-large"
+                  src="img/button-previous-large.png"
+                  alt="previous"
+               />
+               <img
+                  class="core-imagen-show"
+                  src="img/first-imagen.png"
+                  alt=""
+               />
+               <img
+                  class="collage-next-large"
+                  src="img/button-next-large.png"
+                  alt="next"
+               />
+            </div>
+            <div class="collage-minor-imagens-show">
+               <img src="img/first-hover-imagen.png" alt="" />
+               <img src="img/second-imagen.png" alt="" />
+               <img src="img/third-imagen.png" alt="" />
+               <img src="img/fourth-imagen.png" alt="" />
+            </div>
+         </div>
+
+         <div class="second-part">
+            <!-- Section Collage  -->
+            <section class="collage">
+               <div class="collage-core">
+                  <img
+                     class="collage-previous"
+                     src="img/button-previous.png"
+                     alt="previous"
+                  />
+                  <img class="core-imagen" src="img/first-imagen.png" alt="" />
+                  <img
+                     class="collage-next"
+                     src="img/button-next.png"
+                     alt="next"
+                  />
+               </div>
+               <div class="collage-minor-imagens">
+                  <img src="img/first-hover-imagen.png" alt="" />
+                  <img src="img/second-imagen.png" alt="" />
+                  <img src="img/third-imagen.png" alt="" />
+                  <img src="img/fourth-imagen.png" alt="" />
+               </div>
+            </section>
+            <div class="canopy-of-second-part">
+               <!-- Section Description -->
+               <section class="description">
+                  <div class="description-company">sneakers company</div>
+                  <div class="description-name">
+                     Fall Limited Edition Sneakers
+                  </div>
+                  <div class="description-about">
+                     These low-profile sneakers are your perfect casual wear
+                     companion. Featuring a durable rubber outer sole, they’ll
+                     withstand everything the weather can offer.
+                  </div>
+                  <div class="description-price">
+                     <div class="price"></div>
+                     <div class="price-sale">
+                        <img src="img/price-sale.png" alt="sale" />
+                     </div>
+                     <div class="price-before">$250.00</div>
+                  </div>
+               </section>
+               <!-- Section Complete -->
+               <footer class="complete">
+                  <div class="complete-menu">
+                     <div>
+                        <img class="deduct" src="img/deduct.png" alt="deduct" />
+                     </div>
+                     <p class="complete-number"></p>
+                     <div>
+                        <img class="plus" src="img/plus.png" alt="plus" />
+                     </div>
+                  </div>
+                  <div class="complete-add">
+                     <img src="img/white-cart.png" alt="cart" />
+                     <button class="add-choice">Add to cart</button>
+                  </div>
+               </footer>
+            </div>
+         </div>
+         <div class="overlay"></div>
+      </main>
+      <script defer src="card.js"></script>
+      <script defer src="menu.js"></script>
+   </body>
+</html>
